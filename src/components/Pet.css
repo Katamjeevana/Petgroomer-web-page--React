@@ -1,0 +1,573 @@
+.pet-food-container {
+  width: 130px;
+  height: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  transition: all 0.3s ease;
+}
+
+.pet-food-container:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #FD9340;
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+.pet-food-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
+
+.pet-food-image {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pet-food-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  
+}
+
+.pet-food-title {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .pet-food-container {
+    width: 100%;
+    max-width: 170px;
+  }
+}
+
+.pet-accessories-container {
+  width: 100%;
+  max-width: 170px;
+  height: 145px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.pet-accessories-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
+
+.pet-accessories-image {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.pet-accessories-text {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+}
+
+.pet-accessories-container:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #FD9340;
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  .pet-accessories-container {
+    max-width: 100%;
+  }
+}
+.pet-layout {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  top: -330px;
+  left: 170px;
+
+}
+
+
+.pet-row {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  width: 100%;
+  height: 150px;
+  flex-wrap: wrap;
+}
+
+.pet-row > div {
+  flex-grow: 1;
+  height: auto;
+  max-width: 170px;
+  min-width: 0;
+}
+
+@media (max-width: 600px) {
+  .pet-row {
+    justify-content: center;
+  }
+}
+
+.pet-supplies-container {
+  width: 170px;
+  height: 145px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pet-supplies-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
+
+.pet-supplies-image {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.pet-supplies-text {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+}
+
+.pet-supplies-container:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #FD9340;
+  transform: translateY(-2px);
+}
+
+@media screen and (max-width: 768px) {
+  .pet-supplies-container {
+    min-width: 140px;
+    height: auto;
+    padding: 15px 10px;
+  }
+  
+  .pet-supplies-image {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .pet-supplies-text {
+    font-size: 14px;
+  }
+}
+
+.pet-treats-container {
+  width: 100%;
+  max-width: 170px;
+  height: 155px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.pet-treats-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
+
+.pet-treats-image {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.pet-treats-text {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+
+.pet-treats-container:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #FD9340;
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+.pet-treats-image:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  .pet-treats-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .pet-treats-text {
+    font-size: 14px;
+  }
+}
+
+.nutritional-supplements {
+  width: 100%;
+  max-width: 170px;
+  height: 145px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.nutritional-supplements:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  background-color: #FD9340;
+  transform: translateY(-2px);
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+  padding: 10px;
+}
+
+.image-container {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.supplement-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.text-container {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.pet-grooming-container {
+  width: 100%;
+  max-width: 170px;
+  height: 145px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.pet-grooming-container:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  background-color: #FD9340;
+  transform: translateY(-2px);
+}
+
+.pet-grooming-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
+
+.pet-grooming-image {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.pet-grooming-text {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .pet-grooming-container {
+    max-width: 100%;
+  }
+}
+
+.pet-beds-container {
+  width: 100%;
+  max-width: 170px;
+  height: 145px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.pet-beds-container:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  background-color: #FD9340;
+  transform: translateY(-2px);
+}
+
+.pet-beds-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
+
+.pet-beds-image {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.pet-beds-text {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .pet-beds-container {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .pet-beds-content {
+    gap: 10px;
+  }
+
+  .pet-beds-text {
+    font-size: 14px;
+  }
+}
+
+.pet-apparels-container {
+  width: 100%;
+  max-width: 170px;
+  height: 145px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.pet-apparels-container:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  background-color: #FD9340;
+  transform: translateY(-2px);
+}
+
+.pet-apparels-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
+
+.pet-apparels-image {
+  width: 50.21px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.pet-apparels-text {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .pet-apparels-container {
+    max-width: 100%;
+  }
+}
+
+.pet-combo-container {
+  width: 100%;
+  max-width: 170px;
+  height: 145px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.pet-combo-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
+
+.pet-combo-image {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.pet-combo-text {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+}
+.pet-combo-container:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #FD9340;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 480px) {
+  .pet-combo-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .pet-combo-text {
+    font-size: 14px;
+  }
+}
+
+.outdoor-accessories-container {
+  width: 100%;
+  max-width: 170px;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  transition: transform 0.2s ease-in-out;
+}
+
+.outdoor-accessories-container:hover {
+  transform: scale(1.02);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #FD9340;
+  cursor: pointer;
+}
+
+.outdoor-accessories-content {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: center;
+  padding: 10px;
+}
+
+.outdoor-accessories-image {
+  width: 69px;
+  height: 46px;
+}
+
+.outdoor-accessories-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.outdoor-accessories-text {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+@media (max-width: 600px) {
+  .outdoor-accessories-container {
+    max-width: 100%;
+  }
+}
+
+.image{
+ position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ left: 110px;
+ top: -270px;
+}

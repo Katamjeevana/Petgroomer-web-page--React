@@ -1,0 +1,429 @@
+
+#header {
+  background-image: url("../Assets/Herro-Banner.png");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  
+}
+#navbar {
+  
+  top: 90px;
+  left: 190px;
+  bottom:-500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+.nav #navbar li a {
+  text-decoration: none;
+  color: #201919;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.nav #navbar li a:hover {
+  transform: scale(1.1) !important;
+  transition: 0.3s ease !important;
+  color: rgb(10, 9, 9) !important;
+  z-index: 10 !important;
+}
+.logo{
+  position: absolute;
+  top: 30px;
+  left: 80px;
+  width: 180px;
+  height: auto;
+}
+
+#des{
+  position: absolute;
+  top: 60px;
+  left: 120px;
+  width: 500px;
+  height: auto;
+  font-size: 13px;
+  font-weight: 600;
+  color: #252424;
+}
+#des:hover{
+  transform: scale(1.2);
+  transition: 0.3s ease;
+  color: #252424;
+  cursor: pointer;
+  z-index: 10;
+}
+.logo:hover{
+  transform: scale(1.1);
+  transition: 0.3s ease;
+  color: #252424;
+  cursor: pointer;
+}
+.nav{
+  position: absolute;
+  top: 40px;
+  left: 450px;
+  width: 500px;
+  height: auto;
+  font-size: 13px;
+  font-weight: 600;
+  color: #474444;
+  cursor: pointer;
+}
+#navbar li:hover{
+  transform: scale(1.1);
+  transition: 0.3s ease;
+  color: firebrick;
+  z-index: 20;
+}
+
+.button{
+  position: absolute;
+  top: 8px;
+  left: 600px;
+  width: 173px;
+  height: 46px;
+  font-size: 19px;
+  cursor: pointer;
+  padding: 10px 10px;
+  border-radius: 30px;
+  text-align: center;
+  background-color:#FD9340;
+  color: white;
+  outline: none;
+  border: none;
+}
+.button:hover{
+  background-color: #c94b10;
+  transition: 0.3s ease;
+  box-shadow: 0px 0px 10px 0px #352a21;
+}
+
+.container{
+  position: relative;
+  top: -30px;
+  left: -270px;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-title{
+  position: relative;
+  top: 50px;
+  width: 586px;
+  height: 68px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 68px;
+  color: #FD9340;
+  font-family: 'Nunito';
+  font-style: normal;
+  letter-spacing: -0.01em;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.hero-subtitle{
+position: relative;
+top: 20px;
+width: 586px;
+height: 110px;
+font-family: 'Nunito', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 55px;
+text-transform: capitalize;
+color: #FD9340;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.hero-image{
+  width: 480px;
+  height: 72px;
+}
+.hero-description{
+font-family: 'Nunito', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #837c7c;
+}
+#navbar li:hover a{
+  transform: scale(1.1);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.primary{
+  width: 180px;
+  height: 56px;
+  border-radius: 16px;
+  top: 16px;
+  right: 32px;
+  bottom: 16px;
+  left: 32px;
+  gap: 10px;
+  color: #FD9340;
+}
+.buttons{
+   width: 463px;
+   height: 56px;
+   gap:31px;
+   display: flex;
+   padding: 10px;
+}
+.primaryi{
+  position: relative;
+  top: 8px;
+  left: 0px;
+  width: 180px;
+  height:  56px;
+  font-size: 19px;
+  cursor: pointer;
+  padding: 10px 10px;
+  border-radius: 16px;
+  text-align: center;
+  background-color:#FD9340;
+  color: white;
+  outline: none;
+  border: none;
+
+}
+.secondary{
+  position: relative;
+  top: 7px;
+  right: 32px;
+  bottom: 16px;
+  left: 10px;
+  width: 240px;
+  height:  56px;
+  font-size: 19px;
+  cursor: pointer;
+  padding: 10px 10px;
+  border-radius: 16px;
+  text-align: center;
+  background-color:transparent;
+  color: black;
+  outline: none;
+  border: 1px solid black;
+  align-items: center;
+
+}
+.secondary:hover{
+  border: 1px solid  #FD9340;
+  color: #FD9340;
+  transition: 0.3s ease;
+  box-shadow: 0px 0px 10px 0px #352a21;
+}
+.primaryi:hover{
+  background-color: white;
+  color: #FD9340;
+  transition: 0.3s ease;
+  box-shadow: 0px 0px 10px 0px #352a21;
+}
+.content{
+  position: relative;
+  top: 40px;
+  left: 0px;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #fb923c;
+  font-family:'Nunito', sans-serif;
+  margin-bottom: 4rem;
+}
+.how-we-work-container {
+  display: flex;
+  gap: 37px;
+  padding: 20px;
+}
+
+.timeline {
+ top: 40px;
+  left: 130px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  
+}
+
+.timeline-image {
+  width: 55px;
+  height: 359px;
+  object-fit: contain;
+ 
+}
+
+.steps-container {
+  display: flex;
+  gap: 24px;
+}
+
+.step-card {
+  width: 300px;
+  height: 421px;
+  top: 40px;
+  left: 160px;
+  position: relative;
+  border-radius: 0px 30px;
+  border: 1px solid #000000;
+
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.step-content {
+  position: relative;
+  font-family:'Nunito', sans-serif;
+  z-index: 2;
+  padding: 24px;
+}
+
+.step-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.step-number {
+  position: relative;
+  width: 277px;
+  height: 33px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 32.74px;
+  top: 10px;
+}
+
+.step-title {
+  position: relative;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0 ;
+  top: 15px;
+}
+
+.step-description {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #4b5563;
+  max-width: 265px;
+  line-height: 1.5;
+  margin: 23px;
+}
+
+.step-image-container {
+  position: absolute;
+  top: 290px;
+  left: 100px;
+  width: 100px ;
+  height: 100px;
+  z-index: 1;
+  
+}
+
+.step-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Hover effects */
+.step-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+  background: rgb(219, 235, 233);
+  box-shadow: 0 6px 12px rgba(14, 9, 9, 0.15);
+  cursor: pointer !important;
+}
+
+.step-title:hover {
+  color: rgb(221, 142, 110);
+  cursor: pointer;
+}
+.step-description:hover {
+  color: rgb(221, 142, 110);
+  cursor: pointer;
+}
+.step-number:hover {
+  color: rgb(221, 142, 110);
+  cursor: pointer;
+} 
+.step-indicator {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  align-items: center;
+  top: 300px;
+  right: 35px;
+}
+
+.indicator-active {
+  position: relative;
+  font-weight: 400;
+  font-size: 34px;
+  top: -5px;
+}
+
+.indicator-line {
+  position: relative;
+  top: 15px;
+  height: 2px;
+  width: 3rem;
+  background-color: #d1d5db;
+}
+
+.indicator-inactive {
+  color: #9ca3af;
+  font-size: 1.5rem;
+}
+.indicator-active:hover {
+  color: #9ca3af;
+  cursor: pointer;
+} 
+.head{
+ position: relative;
+ top: 100px;
+ color: #FD9340;
+ left:100px;
+ font-family: 'Nunito', sans-serif;
+ 
+}

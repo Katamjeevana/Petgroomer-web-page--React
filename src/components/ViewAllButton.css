@@ -1,0 +1,44 @@
+.view-all-button {
+  position: relative;
+  top: -380px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 14.81px 29.63px;
+  min-width: 140.74px;
+  height: 51.85px;
+  background-color: #fd9340;
+  border-radius: 14.81px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.view-all-button:hover {
+  background-color: #e87f2c;
+  transform: scale(1.02);
+}
+
+.view-all-button:active {
+  transform: scale(0.98);
+}
+
+.view-all-button {
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 16.67px;
+  line-height: 12.96px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .view-all-button {
+    padding: 10px 20px;
+    min-width: 120px;
+    font-size: 14px;
+  }
+}
+

@@ -1,38 +1,341 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#header {
+  background-image: url("../Assets/Herro-Banner.png");
+  height: 100%;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: absolute;
+  
+}
+#navbar {
+  
+  top: 90px;
+  left: 190px;
+  bottom:-500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+.nav #navbar li a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.logo{
+  position: absolute;
+  top: 30px;
+  left: 80px;
+  width: 180px;
+  height: auto;
+}
+
+#des{
+  position: absolute;
+  top: 60px;
+  left: 120px;
+  width: 500px;
+  height: auto;
+  font-size: 13px;
+  font-weight: 600;
+  color: #252424;
+}
+#des:hover{
+  transform: scale(1.1);
+  transition: 0.3s ease;
+  color: #252424;
+  cursor: pointer;
+}
+.logo:hover{
+  transform: scale(1.1);
+  transition: 0.3s ease;
+  color: #252424;
+  cursor: pointer;
+}
+.nav{
+  position: absolute;
+  top: 40px;
+  left: 450px;
+  width: 500px;
+  height: auto;
+  font-size: 13px;
+  font-weight: 600;
+  color: #474444;
+  cursor: pointer;
+}
+#navbar li:hover{
+  transform: scale(1.1);
+  transition: 0.3s ease;
+  color: #f12121;
+}
+.button{
+  position: absolute;
+  top: 8px;
+  left: 600px;
+  width: 173px;
+  height: 46px;
+  font-size: 19px;
+  cursor: pointer;
+  padding: 10px 10px;
+  border-radius: 30px;
+  text-align: center;
+  background-color:#FD9340;
   color: white;
+  outline: none;
+  border: none;
+}
+.button:hover{
+  background-color: #c94b10;
+  transition: 0.3s ease;
+  box-shadow: 0px 0px 10px 0px #352a21;
 }
 
-.App-link {
-  color: #61dafb;
+.container{
+  position: absolute;
+  top: 40px;
+  left: -90px;
+  width: 1000px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-title{
+  position: relative;
+  top: 50px;
+  width: 586px;
+  height: 68px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 68px;
+  color: #FD9340;
+  font-family: 'Nunito';
+  font-style: normal;
+  letter-spacing: -0.01em;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.hero-subtitle{
+position: relative;
+top: 20px;
+width: 586px;
+height: 110px;
+font-family: 'Nunito', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 55px;
+text-transform: capitalize;
+color: #FD9340;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.hero-image{
+  width: 480px;
+  height: 72px;
+}
+.hero-description{
+font-family: 'Nunito', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #837c7c;
+}
+#navbar li:hover a{
+  transform: scale(1.1);
+  transition: 0.3s ease;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.primary{
+  width: 180px;
+  height: 56px;
+  border-radius: 16px;
+  top: 16px;
+  right: 32px;
+  bottom: 16px;
+  left: 32px;
+  gap: 10px;
+  color: #FD9340;
 }
+.buttons{
+   width: 463px;
+   height: 56px;
+   gap:31px;
+   display: flex;
+   padding: 10px;
+}
+.primaryi{
+  position: relative;
+  top: 8px;
+  left: 0px;
+  width: 180px;
+  height:  56px;
+  font-size: 19px;
+  cursor: pointer;
+  padding: 10px 10px;
+  border-radius: 16px;
+  text-align: center;
+  background-color:#FD9340;
+  color: white;
+  outline: none;
+  border: none;
+
+}
+.secondary{
+  position: relative;
+  top: 7px;
+  right: 32px;
+  bottom: 16px;
+  left: 10px;
+  width: 240px;
+  height:  56px;
+  font-size: 19px;
+  cursor: pointer;
+  padding: 10px 10px;
+  border-radius: 16px;
+  text-align: center;
+  background-color:transparent;
+  color: black;
+  outline: none;
+  border: 1px solid black;
+  align-items: center;
+
+}
+.secondary:hover{
+  border: 1px solid  #FD9340;
+  color: #FD9340;
+  transition: 0.3s ease;
+  box-shadow: 0px 0px 10px 0px #352a21;
+}
+.primaryi:hover{
+  background-color: white;
+  color: #FD9340;
+  transition: 0.3s ease;
+  box-shadow: 0px 0px 10px 0px #352a21;
+}
+
+.how-we-work-container {
+  display: flex;
+  gap: 37px;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.timeline {
+  flex-shrink: 0;
+}
+
+.timeline-image {
+  width: 55px;
+  height: 359px;
+  object-fit: contain;
+}
+
+.steps-container {
+  display: flex;
+  gap: 24px;
+}
+
+.step-card {
+  width: 335px;
+  height: 421px;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.step-content {
+  position: relative;
+  z-index: 2;
+  padding: 24px;
+}
+
+.step-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.step-number {
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.step-title {
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0;
+}
+
+.step-description {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.65);
+  max-width: 265px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.step-image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.step-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.step-icon {
+  position: absolute;
+  bottom: 34px;
+  left: 117px;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+/* Hover effects */
+.step-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.step-title:hover {
+  color: #333333;
+  cursor: pointer;
+}
+
