@@ -9,6 +9,8 @@ import image4 from '../Assets/image 37.png';
 import { useState } from 'react';
 import  PetLayout from './PetLayout';
 import './Pet.css';
+import { Routes, Route } from "react-router-dom";
+import AllProducts from './AllProducts';
 
 const PopularProductsLayout = () => {
   const products = [
@@ -199,8 +201,8 @@ console.log("TranslateX Value:", `translateX(-${currentPage * 100}%)`);
           ))}
         </div>
       </div>
-
-      {/* View All Button */}
+      
+     
       <ViewAllButton />
 
       <div style={{

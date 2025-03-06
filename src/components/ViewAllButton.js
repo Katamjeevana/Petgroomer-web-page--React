@@ -1,21 +1,23 @@
-import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link
-import './ViewAllButton.css';
+import React from "react";
+import "./ViewAllButton.css";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 
 const ViewAllButton = ({ style }) => {
+  const navigate = useNavigate(); // Replace useHistory with useNavigate
+
   return (
-      <button 
-        className="view-all-button"
-        style={style}
-      >
-        View all Products
-      </button>
-  
+    <button
+      className="views-all-button"
+      style={style}
+      onClick={() => navigate("/products")} // Use navigate instead of history.push
+    >
+      View all Products
+    </button>
   );
 };
 
 ViewAllButton.defaultProps = {
-  style: {}
+  style: {},
 };
 
 export default ViewAllButton;

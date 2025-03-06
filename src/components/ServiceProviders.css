@@ -1,0 +1,175 @@
+.service-providers {
+  position: relative;
+  top:450px;
+  padding: 40px;
+  font-family: 'Nunito', sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.bone-image {
+  margin-bottom: 20px;
+}
+
+.headings {
+  position: relative;
+  top: -140px;
+  left: 20px;
+  color: #fd9340;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 72px;
+  margin-bottom: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.description {
+  position: relative;
+  left:20px;
+  top: -150px;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 541px;
+  margin-bottom: 30px;
+}
+
+.know-more-btn {
+  position: relative;
+  top:-150px;
+  left: 17px;
+  background-color: #fd9340;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  padding: 16px 32px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 40px;
+}
+
+.know-more-btn:hover {
+  background-color: #e88235;
+}
+
+.features-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.feature-card {
+  position: relative;
+  top:-540px;
+  left: 710px;
+  width: 220px;
+  height: 148px;
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.features-container:hover {
+  cursor: pointer;
+}
+.feature-card.green {
+  background-color: #e9fedf;
+}
+
+.feature-card.blue {
+  background-color: #eef8fa;
+}
+
+.feature-card.pink {
+  background-color: #fdf3f5;
+}
+
+.feature-card.purple {
+  background-color: #f8f5fc;
+}
+
+.icon-container {
+  margin-bottom: 10px;
+}
+
+.feature-card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+
+.feature-card.green h3 {
+  color: #73c14f;
+}
+
+.feature-card.blue h3 {
+  color: #47b5c4;
+}
+
+.feature-card.pink h3 {
+  color: #ef7f9b;
+}
+
+.feature-card.purple h3 {
+  color: #755aa6;
+}
+
+.corner-icon {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  top: -30px;
+  right: 200px;
+}
+#attention{
+  position: relative;
+  top:-330px;
+  left:410px;
+ 
+}
+#attention:hover{
+  border-color: #e88235;
+}
+#passion{
+  position: relative;
+  left: 400px;
+  top:-570px;
+}
+#ongoing{
+  position: relative;
+  left: 100px;
+  top:-350px;
+}
+
+@media (max-width: 1200px) {
+  .features-container {
+    justify-content: center;
+  }
+  
+  .feature-card {
+    width: calc(50% - 15px);
+  }
+}
+
+@media (max-width: 768px) {
+  .feature-card {
+    width: 100%;
+  }
+  
+  .heading {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+

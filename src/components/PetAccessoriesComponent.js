@@ -4,7 +4,7 @@ import images from '../Assets/pet accessories.png'
 
 const PetAccessoriesComponent = ({ imageUrl = images, label = "Pet Accessories" }) => {
   return (
-    <div className="pet-accessories-container">
+    <div className="pet-accessories-container" id='pf'>
       <div className="pet-accessories-content">
         <img 
           src={imageUrl} 

@@ -1,5 +1,4 @@
 import React from 'react';
-import ArrowGroup from './WhyChooseUsSection_ArrowGroup';
 import WhyChooseUsSection from './WhyChooseUsSection';
 import './WhyChooseUsSectionLayout.css';
 import image1 from '../Assets/image 4.png'
@@ -7,9 +6,10 @@ import image2 from '../Assets/image 5.png'
 import image3 from '../Assets/image 6.png'
 import image4 from '../Assets/image 8.png'
 import image5 from '../Assets/image 10.png'
+import CircleGroup from './Circle';
 
 
-const WhyChooseUsSectionLayout = () => {
+const Layouts = () => {
   return (
     <div className="why-choose-us-layout">
       <div className="top-row">
@@ -25,7 +25,7 @@ const WhyChooseUsSectionLayout = () => {
         />
         </div>
       </div>
-      {/* <ArrowGroup /> */}
+      <CircleGroup />
       <div className="bottom-row">
       <div className="high"><WhyChooseUsSection
           title="High-Quality Products"
@@ -50,5 +50,5 @@ const WhyChooseUsSectionLayout = () => {
   );
 };
 
-export default WhyChooseUsSectionLayout;
+export default  Layouts;
 

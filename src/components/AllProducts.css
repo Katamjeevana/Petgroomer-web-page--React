@@ -1,0 +1,55 @@
+#ex{
+  position: relative;
+  top: -300px;
+  z-index: 10;
+  height: 1000px;
+}
+#alp{
+  position: relative;
+  top: 30px;
+  font-size: 50px;
+  z-index: 100;
+  left: 80px;
+  font-Size: 42px;
+  font-Weight: 600;
+  color: #FD9340;
+}
+#ex2{
+  position: relative;
+  top: -500px;
+}
+h1{
+  z-index: 100;
+}
+#hh{
+  font-size: 20px;
+  position: relative;
+  left: 500px;
+  top: -60px;
+}
+#ele{
+  position: relative;
+  top: 6px;
+display: flex;
+gap: 30px;
+}
+.h:hover{
+  color: #d63909;
+  cursor: pointer;
+}
+.s:hover{
+  color: #d63909;
+  cursor: pointer;
+}
+.b:hover{
+  color: #d63909;
+  cursor: pointer;
+}
+.f:hover{
+  color: #d63909;
+  cursor: pointer;
+}
+.c:hover{
+  color: #d63909;
+  cursor: pointer;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import './NavigationArrows.css';
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+
 
 
 const NavigationArrows = ({ style, onPrevClick, onNextClick }) => {

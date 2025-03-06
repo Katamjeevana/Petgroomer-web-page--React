@@ -1,0 +1,166 @@
+.new{
+  position: relative;
+    top: 190px;
+    font-Size: 42px;
+    font-Weight: 600;
+    color: #FD9340;
+    left:70px;
+    font-Family: 'Nunito', sans-serif;
+}
+#card1{
+  position: relative;
+  top:250px;
+  width: 570px;
+  height: 600px;
+  border: 1px solid black;
+  left: 150px;
+  z-index: 1;
+}
+#card2{
+  position: relative;
+  width: 570px;
+  height: 600px;
+  border: none;
+  left:760px;
+  top: -353px;
+
+}
+
+.bed{
+  position: relative;
+  width: 524px;
+  height: 408px;
+  top: 93px;
+  left: 23px;
+  z-index: 1;
+}
+.d1{
+  position: relative;
+  top: 10px;
+  z-index: 10;
+  font-family: 'Nunito';
+  left: 30px;
+
+}
+.d1 h1{
+  font-size: 25px;
+  font-weight: 900;
+}
+.d1 p{
+  position: relative;
+  top: -10px;
+  font-size: 15px;
+}
+
+#shop{
+  position: relative;
+  top:-11px;
+  left: 1px;
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  cursor: pointer;
+  position: relative;
+  width: fit-content;
+}
+.underline {
+  position: relative;
+  top: -9px;
+  left: 1px;
+  height: 1px;
+  width: 74px;
+  background-color: #807979;
+  transition: width 0.3s ease;
+}
+
+#shop:hover {
+  transform: scale(1);
+  transition: all 0.3s ease;
+}
+
+.c1{
+  width: 570px;
+  height: 284px;
+  border: 1px solid black;
+  z-index: 10;
+}
+#flee{
+  position: relative;
+  display: flex;
+  gap: 32px;
+  top: 30px;
+
+}
+.c2{
+  width: 270px;
+  height: 284px;
+  border: 1px solid black;
+}
+.c3{
+  width: 270px;
+  height: 284px;
+  border: 1px solid black;
+}
+
+.socks{
+  position: relative;
+  width: 275px;
+  height: 275px;
+  top:5px;
+  left: 252px;
+  z-index: 1;
+}
+.winter{
+  position: relative;
+  top:30px;
+  left: 30px;
+  width: 198px;
+  height: 146px;
+}
+.pedigree{
+  position: relative;
+  left: 30px;
+width: 198px;
+height: 113.38px;
+top:50px;
+}
+
+.d2, .d3, .d4{
+  position: relative;
+  top: -150px;
+  z-index: 10;
+  font-family: 'Nunito';
+  left: 25px;
+
+}
+.d2 h1{
+  font-size: 25px;
+  font-weight: 900;
+
+}
+.d2 p{
+  position: relative;
+  top: -10px;
+  font-size: 15px;
+}
+
+.d3{
+  top: 30px;
+}
+.d3 h1{
+  font-size: 25px;
+  font-weight: 900;
+}
+.d4{
+  position: relative;
+  top: 60px;
+}
+.d4 h1{
+  font-size: 25px;
+  font-weight: 900;
+}

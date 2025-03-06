@@ -1,0 +1,183 @@
+.head{
+  position: relative;
+    top: 100px;
+    font-Size: 42px;
+    font-Weight: 600;
+    color: #FD9340;
+    left:100px;
+    font-Family: 'Nunito', sans-serif;
+}
+
+.pamper-spa-container {
+  position: relative;
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  top:160px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.content-frame {
+  display: flex;
+  background: #fff;
+  border-radius: 24px;
+  border: 0.75px solid #000;
+  padding: 57px 51px;
+  position: relative;
+  width: 1040px;
+  height: 300px;
+  left:90px;
+}
+
+.text-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 516px;
+  height: 400px;
+}
+
+.text-group {
+  margin-bottom: 36px;
+}
+
+.title {
+  position: relative;
+  left: -10px;
+  top: -80px;
+  font-size: 36px;
+  font-weight: 600;
+  color: #000;
+  margin: 0 0 8px 0;
+}
+
+.des {
+  position: relative;
+  top: -80px;
+  left: -10px;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.65);
+  line-height: 1.4;
+  font-Family: 'Nunito', sans-serif;
+  margin: 0;
+}
+
+.download-section {
+  width: fit-content;
+}
+
+.download-group {
+  position: relative;
+  top: -100px;
+  left: -10px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-bottom: 1px;
+  cursor: pointer;
+}
+
+.download-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  line-height: 14px;
+}
+
+.arrow-icon {
+  position: relative;
+  left: 6px;
+  width: 13.32px;
+  height: 14.32px;
+  
+}
+
+.underlines {
+  position: relative;
+  top: -95px;
+  left: -10px;
+  height: 0.75px;
+  background: #fd9340;
+  width: 151px;
+}
+
+.images-container {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.spa-image {
+  position: absolute;
+  object-fit: cover;
+}
+
+.spa-1 {
+  width: 300px;
+  height: 326.5px;
+  left: -40px;
+  top: -20px;
+}
+
+.spa-2 {
+  width: 349px;
+  height: 200.57px;
+  left: 137.5px;
+  top: 156px;
+  border-radius: 11px;
+}
+
+.spa-3 {
+  width: 180px;
+  height: 220.5px;
+  right: -50px;
+  top: 60px;
+}
+.spa-4 {
+  width: 260px;
+  height: 180.5px;
+  top:-55px;
+  left:220px;
+
+}
+.navigation-buttons {
+  display: flex;
+  gap: 23.08px;
+  justify-content: flex-end;
+  margin-top: 42px;
+}
+
+.nav-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: 0.5px solid #000;
+  background: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15.38px;
+  transition: background-color 0.3s;
+}
+
+.nav-button.next {
+  background: #fd9340;
+}
+
+.nav-button:hover {
+  opacity: 0.8;
+}
+
+.nav-button img {
+  width: 23.08px;
+  height: 23.08px;
+}
+
+.download-text:hover + .arrow-icon{
+  width: 20px;
+  height: 20px;
+}

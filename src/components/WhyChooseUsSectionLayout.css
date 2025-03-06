@@ -89,7 +89,7 @@
   transition: all 0.3s ease;
 }
 
-.image-container {
+.images-containers {
   width: 90px;
   height: 80px;
   display: flex;
@@ -97,7 +97,7 @@
   align-items: center;
 }
 
-.image-container img {
+.images-containers img {
   width: 100%;
   height: 100%;
   
@@ -134,7 +134,7 @@
 }
 .care{
   position: relative;
-  top:350px;
+  top:100px;
   right: 240px;
 }
 .convenient{
@@ -145,12 +145,12 @@
 }
 .customer{
   position: relative;
-  top: 350px;
+  top: 100px;
   right: 200px;
 }
 .high{
   position: relative;
-  top: 30px;
+ top:-216px;
   left:100px
  
 }

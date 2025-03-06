@@ -1,23 +1,23 @@
-
-import React from 'react';
-import Banner from './components/Banner'; 
-import HowWeWork from './components/Work'; 
-import Products from './components/Products';
-import Image from './components/Image';
-import WhyChooseUsSectionLayout from './components/WhyChooseUsSectionLayout';
+// export default App;
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Wrapper from "./components/Wrapper";
+import AllProducts from "./components/AllProducts";
+import Blog from "./components/Blog";
+import Adoption from "./components/Adoption";
+import Grooming from "./components/Grooming";
 
 function App() {
   return (
-    <>
-      
-      <Banner />
-      <HowWeWork />
-      <Products />
-      <Image />
-      <WhyChooseUsSectionLayout />
-      
-      
-    </>
+    <Routes>
+      <Route path="/" element={<Wrapper />}>
+        <Route path="/products" element={<AllProducts />} />
+        <Route path="/blog" element={<Blog/>}/>
+        <Route path="/adoption" element={<Adoption/>}/>
+        <Route path="/groomingtips" element={<Grooming/>}/>
+        
+      </Route>
+    </Routes>
   );
 }
 

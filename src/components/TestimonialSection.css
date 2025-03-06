@@ -1,0 +1,262 @@
+.testimonial-section {
+  position: relative;
+  padding: 70px 80px;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Nunito', sans-serif;
+  overflow: hidden;
+  top: -220px;
+}
+
+.paw-icon {
+  position: relative;
+  top: 62px;
+  right: 234px;
+  width: 203.56px;
+  height: 203.56px;
+}
+
+.paw-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.testimonial-header {
+  margin-bottom: 60px;
+}
+
+.testimonial-header h1 {
+  position: relative;
+  top: -100px;
+  left: 10px;
+  font-size: 42px;
+  font-weight: 600;
+  color: #FD9340;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.testimonial-header p {
+  position: relative;
+  right: -600px;
+  top:-150px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  line-height: 1.4;
+  margin: 0;
+  
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  top:-120px;
+}
+
+.testimonial-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cards-content {
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.main-card {
+  width: 557px;
+  height: 281px;
+}
+
+.main-card::before {
+  content: '';
+  position: absolute;
+  top: 18px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://dashboard.codeparrot.ai/api/image/Z8cIkhQ2u-KHiHWE/frame-42.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 0;
+}
+
+.secondary-card {
+  width: 370.71px;
+  height: 187.02px;
+  
+}
+
+.secondary-card::before {
+  content: '';
+  position: absolute;
+  top: 11.98px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ff7b1d;
+  border-radius: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 0;
+}
+
+.profile-section {
+  position: relative;
+  top: -20px;
+  left: 30px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-bottom: 24px;
+}
+
+.profile-image {
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  border: 1.5px solid #FD9340;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.secondary-card .profile-image {
+  width: 69.88px;
+  height: 69.88px;
+  border-width: 1px;
+  
+}
+
+.profile-image img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.profile-info h3 {
+  position: relative;
+  top: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+}
+
+.secondary-card .profile-info h3 {
+  font-size: 15.97px;
+}
+
+.rating-stars {
+  position: relative;
+  top:25px;
+  left: -6px;
+  width: 115px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.secondary-card .rating-stars {
+  width: 76.54px;
+  height: 13.31px;
+}
+
+.testimonial-text {
+  position: relative;
+  left: 6px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.secondary-card .testimonial-text {
+  font-size: 13.31px;
+  backdrop-filter: blur(10px);
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 2;
+}
+
+.arrow-circle {
+  position: relative;
+  left: 50px;
+  top: 11px;
+  width: 46px;
+  height: 46px;
+  background: #FD9340;
+  border: 0.75px solid #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.arrow-circle:hover {
+  transform: scale(1.1);
+  background: #ff7b1d;
+}
+
+.arrow-circle:active {
+  transform: scale(0.95);
+}
+
+.arrow-circle img {
+  width: 24px;
+  height: 24px;
+}
+
+.slider-dots {
+  position: relative;
+  top:-50px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background: #D9D9D9;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.dot:hover {
+  background: #FD9340;
+  opacity: 0.7;
+}
+
+.dot.active {
+  background: #FD9340;
+}
+#ti{
+  backdrop-filter: blur(10px)
+}

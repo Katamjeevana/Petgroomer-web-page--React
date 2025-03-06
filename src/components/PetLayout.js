@@ -13,15 +13,15 @@ import './Pet.css';
 
 const PetLayout = () => {
   return (
-    <div className="pet-layout">
-      <div className="pet-row">
+    <div className="pet-layouts">
+      <div className="pets-rows">
         <PetFoodComponent />
         <PetAccessoriesComponent />
         <PetSuppliesComponent />
        <div className="treat" ><PetTreatsComponent /></div>
         <NutritionalSupplementsComponent />
       </div>
-      <div className="pet-row">
+      <div className="pets-rows">
         <PetGroomingComponent />
         <PetBedsComponent />
         <PetApparelsComponent />

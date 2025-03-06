@@ -4,7 +4,7 @@ import images from '../Assets/pet supplies.png'
 
 const PetSuppliesComponent = () => {
   return (
-    <div className="pet-supplies-container">
+    <div className="pet-supplies-container" id='pf'>
       <div className="pet-supplies-content">
         <img 
           src={images}

@@ -1,0 +1,84 @@
+.footer-contact {
+  position: relative;
+  top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 295px;
+  gap: 20px;
+  color: #fff;
+  background-color: inherit;
+  padding: 20px;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+}
+
+.contact-item {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #fff;
+  text-decoration: none;
+  transition: opacity 0.3s;
+}
+
+.contact-item:hover {
+  opacity: 0.8;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.social-link {
+  width: 32.5px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  transition: opacity 0.3s;
+}
+
+.social-link:hover {
+  opacity: 0.8;
+}
+
+.connect-button {
+  width: 194px;
+  height: 44px;
+  background: #fff;
+  border: 2px solid #fd9340;
+  border-radius: 27px;
+  color: #fd9340;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.connect-button:hover {
+  background: #fd9340;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .footer-contact {
+    padding: 10px;
+  }
+
+  .connect-button {
+    width: 100%;
+  }
+}
+

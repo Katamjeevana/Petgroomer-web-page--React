@@ -4,9 +4,9 @@ import images from '../Assets/nutirional suppliments.png'
 
 const NutritionalSupplementsComponent = ({ imageSrc = images, title = 'Nutritional Supplements' }) => {
   return (
-    <div className="nutritional-supplements">
+    <div className="nutritional-supplements" id='pf'>
       <div className="content-container">
-        <div className="image-container">
+        <div className="image-container" id='ni'>
           <img 
             src={imageSrc} 
             alt={title}

@@ -31,7 +31,7 @@ const HowWeWork = () => {
   return (
     <>
     <div className='content'>
-       <h1 className="title">
+       <h1 className="titles">
           How we work?
         </h1>
     </div>

@@ -5,7 +5,7 @@ import './WhyChooseUsSectionLayout.css';
 const WhyChooseUsSection = ({ title, description, imageUrl }) => {
   return (
     <div className="section-card">
-      <div className="image-container">
+      <div className="images-containers">
         <img src={imageUrl} alt={title} />
       </div>
       <h3 className="section-title">{title}</h3>

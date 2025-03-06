@@ -1,0 +1,86 @@
+.latest{
+  position: relative;
+  top: -240px;
+  font-Size: 42px;
+  font-Weight: 600;
+  color: #FD9340;
+  left:100px;
+  font-Family: 'Nunito', sans-serif;
+}
+.layout {
+  position: relative;
+  left: 90px;
+  top: -150px;
+  gap:90px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.sidebar-container {
+  flex-grow: 1;
+  max-width: 437px;
+  
+  box-sizing: border-box;
+}
+
+.main-content-container {
+  position: relative;
+  height: 200px;
+  flex-grow: 2;
+  
+}
+
+.under{
+  position: relative;
+  top: -5px;
+  left: 5px;
+  height: 1px;
+  width: 50px;
+  background-color: #807979;
+  transition: width 0.3s ease;
+  box-shadow: 0px 0px 1px 0px black;
+}
+#d{
+  position: relative;
+  top:-200px;
+  left:1200px;
+  cursor: pointer;
+}
+#read{
+  border: none;
+  background: transparent;
+  font-family: 'Nunito',sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.read{
+  position: relative;
+  left:2px;
+  width: 15px;
+  height: 15px;
+  color: #000;
+}
+#read:hover{
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+} 
+.read:hover{
+  width: 20px;
+  height: 20px;
+}
+/* .under:hover{
+  width: 125px;
+} */
+#read:hover + .read {
+  transform: scale(1.5); 
+}
+#read:hover ~ .under {
+  width: 120px; 
+ 
+}

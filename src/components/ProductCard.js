@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProductCard.css';
-import { FaHeart, FaEye, FaStar } from 'react-icons/fa';
+import {  FaEye, FaStar } from 'react-icons/fa';
 import { FaRegHeart } from "react-icons/fa";
 import image4 from '../Assets/image 37.png';
 import {  FaShoppingCart } from "react-icons/fa";
@@ -19,7 +19,7 @@ const ProductCard = ({
   ratings = "88"
 }) => {
   return (
-    <div className="product-card"   >
+    <div className="productcards"   >
       <div className="product-image-container">
         <img src={imageUrl} alt="Product" className="product-image"/>
         
@@ -27,7 +27,7 @@ const ProductCard = ({
           -{discount}%
         </div>
         
-        <div className="action-buttons">
+        <div className="actions-buttons">
           <button className="icon-button">
            <h1 className="icon"> {heartIcon}</h1>
           </button>
