@@ -21,6 +21,9 @@
 h1{
   z-index: 100;
 }
+.b{
+  color:#FD9340;
+}
 #hh{
   font-size: 20px;
   position: relative;
@@ -52,4 +55,15 @@ gap: 30px;
 .c:hover{
   color: #d63909;
   cursor: pointer;
+}
+
+#ele h1{
+  color: #FD9340;
+}
+
+#ele h1:hover{
+  color: #d63909;
+}
+.active{
+  color: #d63909;
 }

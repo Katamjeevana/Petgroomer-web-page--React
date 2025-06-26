@@ -11,7 +11,7 @@ const Adoption = () => {
   const navigate = useNavigate();
   return (
     <>
-    <img src={logo} className="logo" alt="Logo" />
+    <img onClick={() => navigate("/")} src={logo} className="logo" alt="Logo" />
     <p id="pet1">Pet Care Your Pet Deserve</p>
     <div id='ad'>
     <div id='ap'>Adoption</div>
@@ -19,8 +19,8 @@ const Adoption = () => {
     <h1  id='hh' className='h' onClick={() => navigate("/")}>Home</h1>
     <h1  id='hh' className='s'>Shop</h1>
     <h1  id='hh' className='active'onClick={() => navigate("/blog")}>Blog</h1>
-    <h1  id='hh' className='f'>FAQs</h1>
-    <h1 id='hh' className='c'>Contact</h1>
+    <h1  id='hh' className='f'  onClick={() => navigate("/faq")}>FAQs</h1>
+    <h1 id='hh' className='c' onClick={() => navigate("/aboutus")}>About us</h1>
     </div>
     <h1 id='keep'>Keeping Your Yorkie Sparkling: A Guide<br></br> to Fur and Skin Care</h1>
     <img id="yo"src={image2} alt="image"></img>

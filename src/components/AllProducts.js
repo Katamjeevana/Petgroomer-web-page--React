@@ -11,9 +11,9 @@ const AllProducts = () => {
     <div id='ele'>
     <h1  id='hh' className='h' onClick={() => navigate("/")}>Home</h1>
     <h1  id='hh' className='s'>Shop</h1>
-    <h1  id='hh' className='b'onClick={() => navigate("/blog")}>Blog</h1>
-    <h1  id='hh' className='f'>FAQs</h1>
-    <h1 id='hh' className='c'>Contact</h1>
+    <h1  id='hh' className='b' onClick={() => navigate("/blog")}>Blog</h1>
+    <h1  id='hh' className='f'  onClick={() => navigate("/faq")}>FAQs</h1>
+    <h1 id='hh' className='c' onClick={() => navigate("/aboutus")}>About us</h1>
     </div>
     </div>
    <div id="ex"> <ExploreElements/></div>

@@ -1,0 +1,126 @@
+#ad{
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+  height: 780vh;
+  width: 100vw;
+}
+#hh{
+  font-size: 20px;
+  position: relative;
+  left: 500px;
+  top: -60px;
+}
+#ele{
+  position: relative;
+  top: 50px;
+display: flex;
+gap: 30px;
+}
+.h:hover{
+  color: #d63909;
+  cursor: pointer;
+}
+.s:hover{
+  color: #d63909;
+  cursor: pointer;
+}
+.active{
+  color: #d63909;
+  cursor: pointer;
+}
+.f:hover{
+  color: #d63909;
+  cursor: pointer;
+}
+.c:hover{
+  color: #d63909;
+  cursor: pointer;
+}
+.logo{
+  position: absolute;
+  top: 25px;
+  left: 80px;
+  width: 180px;
+  height: auto;
+  z-index: 0;
+}
+
+#sss{
+  position: relative;
+  top:50px;
+    font-Size: 35px;
+    font-Weight: 600;
+    color: #fd9340;
+    left:60px;
+    font-Family: 'Nunito', sans-serif;
+}
+#h{
+  position: relative;
+  left: 60px;
+  top: 40px;
+  font-family: 'Nunito';
+  color: rgb(71, 70, 70);
+  font-size: 12px;
+}
+#h span{
+  color: black;
+  font-size: 15px;
+}
+
+#pethappy{
+  height: auto;
+  width: 900px;
+  position: relative;
+  top:100px;
+  left: 400px;
+}
+#filterbys{
+  position: relative;
+  left: 50px;
+  font-weight: 400;
+  font-size: 20px;
+  top: -100px;
+}
+#linee{
+  position: relative;
+  left: 50px;
+  height: 7px;
+  width: 300px;
+  background-color: #fd9340;
+  top: -70px;
+}
+
+#pricess{
+  position: relative;
+  left: 50px;
+  top: -70px;
+  font-size: 15px;
+  color: gray;
+}
+
+#ll{
+  height: 1px;
+  width: 300px;
+  position: relative;
+  left: 47px;
+  top: -50px;
+  background-color: rgb(226, 221, 221);
+}
+#optionss{
+  position: relative;
+  top: -10px;
+  left: 50px;
+  height: 50px;
+  width: 280px;
+  border: 1px bold rgb(189, 184, 184);
+}
+
+option{
+  position: relative;
+  top: -10px;
+  left: 50px;
+  height: 50px;
+  width: 280px;
+  border: 1px bold rgb(189, 184, 184);
+}

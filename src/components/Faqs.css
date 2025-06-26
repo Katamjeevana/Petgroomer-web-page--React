@@ -1,0 +1,174 @@
+#ad{
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+  height: 780vh;
+  width: 100vw;
+}
+#hh{
+  font-size: 20px;
+  position: relative;
+  left: 500px;
+  top: -60px;
+}
+#ele{
+  position: relative;
+  top: 50px;
+display: flex;
+gap: 30px;
+}
+.h:hover{
+  color: #d63909;
+  cursor: pointer;
+}
+.s:hover{
+  color: #d63909;
+  cursor: pointer;
+}
+.f:hover{
+  color: #d63909;
+  cursor: pointer;
+}
+.active{
+  color: #d63909;
+  cursor: pointer;
+}
+.c:hover{
+  color: #d63909;
+  cursor: pointer;
+}
+.logo{
+  position: absolute;
+  top: 25px;
+  left: 80px;
+  width: 180px;
+  height: auto;
+  z-index: 0;
+}
+#faq{
+  position: relative;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fd9340;
+}
+#faq h1{
+  font-size: 37px;
+  font-weight: 800;
+}
+#faq p{
+  position: relative;
+  top:-30px;
+  color: rgb(32, 32, 32);
+  font-family: 'Nunito';
+  font-size: 20px;
+  font-weight: 600;
+}
+#qs{
+  position: relative;
+  left: 100px;
+  font-size: 18px;
+  top: -20px;
+  cursor: pointer;
+}
+.active{
+  color: #fd9340;
+  cursor: pointer;
+}
+
+#ordering{
+  position: relative;
+  top:-250px;
+  left: 450px;
+  height: auto;
+  width: 780px;
+  box-shadow: 0px 1px 4px 0px black;
+  border-radius: 20px;
+}
+#book{
+  position: relative;
+  top: 5px;
+  left: 5px;
+  height: 46px;
+  width: 46px;
+}
+
+#order{
+  position: relative;
+  left: 70px;
+  color: #fd9340;
+  top: -70px;
+  font-weight: 200;
+}
+
+#ordering:hover {
+  border: 1px solid black;
+}
+
+
+#border{
+  position:relative;
+  top:-520px;
+  left: 520px;
+  height:1px;
+  width:760px;
+  background-color: grey;
+}
+
+#cp{
+  position:relative;
+  top:-70px;
+  font-Size:42px;
+  color: #fd9340;
+  left: 700px;
+  
+}
+
+#cm{
+  position:relative;
+  font-Size: 42px;
+  color:#fd9340;
+  left:710px;
+  top:-68px;
+}
+#paragra{
+  position:relative;
+  top:-525px;
+  left: 520px;
+  font-Size:22px;
+  width:730px;
+  color: rgb(48, 43, 43);
+}
+.qss{
+  position:relative;
+  top: -430px;
+  font-Size:22px;
+  font-Weight:200;
+  left: 520px;
+ color: #000;
+}
+.qss.actives{
+  color:rgb(8, 6, 6)
+}
+
+#o11{
+  position: relative;
+  top: 380px;
+  left: -500px;
+  color: black;
+}
+.qss:hover{
+  cursor: pointer;
+}
+.b{
+  color: #000;
+}
+#black{
+  color: #000;
+}
+/* Add this to your CSS file (Faqs.css) */
+.qss-container {
+  margin-bottom: -100px; /* Adjust the value to control the gap size */
+}

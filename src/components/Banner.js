@@ -36,7 +36,7 @@ const Banner = () => {
         <>
         
     <section id="header">
-            <img src={logo} className="logo" alt="Logo" />
+            <img onClick={() => navigate("/")} src={logo} className="logo" alt="Logo" />
             <p id="des">Pet Care Your Pet Deserve </p>
 
             <div className="nav">
@@ -47,8 +47,8 @@ const Banner = () => {
                   <h1 className="active" onClick={() => navigate("/")}>  <li><a>Home</a></li></h1>
                   <h1>  <li><a href="shop.html">Shop</a></li></h1>
                   <h1 onClick={() => navigate("/blog")}><li ><a >Blog</a></li></h1>
-                    <h1><li><a href="about.html">FAQs</a></li></h1>
-                   <h1> <li><a href="contact.html">Contact</a></li></h1>
+                    <h1 onClick={() => navigate("/faq")}><li><a>FAQs</a></li></h1>
+                   <h1 onClick={() => navigate("/aboutus")}> <li><a>Aboutus</a></li></h1>
                   <h1>  <li id="bag" ><i className="fa-solid fa-bag-shopping"></i></li></h1>
                 </ul>
                 <button className='button'  onClick={()=> setOpenPopup(true)}>Login/Signup</button>
@@ -117,7 +117,7 @@ const Banner = () => {
           </div>
           <div className="buttons">
             <a href="#shop" ><button className="primaryi">Shop Now</button></a>
-            <a href="#explore"><button className="secondary">Explore New Arrivals</button></a>
+            <a onClick={() => navigate("/explore")}><button className="secondary">Explore New Arrivals</button></a>
           </div>
         </div>
       </div>

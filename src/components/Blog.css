@@ -47,6 +47,10 @@ gap: 30px;
 .c:hover{
   color: #d63909;
   cursor: pointer;
+
+}
+h1 .active{
+  color: #000;
 }
 .logo{
   position: absolute;
@@ -318,4 +322,8 @@ gap: 30px;
   height: 36px;
   
  
+}
+
+.active{
+  color: #d63909;
 }

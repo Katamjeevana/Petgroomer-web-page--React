@@ -44,7 +44,7 @@ const ServiceProviders = () => {
           <h3>Attention to<br />Detail</h3>
         </div>
 
-        <div className="feature-card pink" id='passion'>
+        <div className="feature-card pink" id='pass'>
           <div className="icon-container">
             <img  src={image2} alt="Passion" width="100" height="100" />
           </div>
