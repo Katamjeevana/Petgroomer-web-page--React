@@ -43,13 +43,14 @@ const Banner = () => {
                 <ul id="navbar" >
                 
                 
-          
+                  <h1 className="nav2">
                   <h1 className="active" onClick={() => navigate("/")}>  <li><a>Home</a></li></h1>
                   <h1>  <li><a href="shop.html">Shop</a></li></h1>
                   <h1 onClick={() => navigate("/blog")}><li ><a >Blog</a></li></h1>
                     <h1 onClick={() => navigate("/faq")}><li><a>FAQs</a></li></h1>
                    <h1 onClick={() => navigate("/aboutus")}> <li><a>Aboutus</a></li></h1>
                   <h1>  <li id="bag" ><i className="fa-solid fa-bag-shopping"></i></li></h1>
+                  </h1>
                 </ul>
                 <button className='button'  onClick={()=> setOpenPopup(true)}>Login/Signup</button>
                 { openPopup && 

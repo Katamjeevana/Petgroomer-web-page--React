@@ -19,14 +19,25 @@
 }
 #navbar {
   
-  top: 90px;
+  top: 50px;
   left: 190px;
   bottom:-500px;
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
+.nav2{
+  position: absolute;
+  top: 30px;
 
+  top: -40px;
+  left: -20px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #navbar li {
   list-style: none;
   padding: 0 20px;
@@ -82,7 +93,7 @@
 }
 .nav{
   position: absolute;
-  top: 40px;
+  top: 30px;
   left: 450px;
   width: 500px;
   height: auto;
